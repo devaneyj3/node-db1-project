@@ -1,18 +1,18 @@
 {
-  "name": "webdb-i-challenge",
+  "name": "node-db1-project",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "server": "nodemon index.js"
   },
-  "repository": "https://github.com/LambdaSchool/webdb-i-challenge",
+  "repository": "https://github.com/devaneyj3/node-db1-project.git",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "knex": "^0.20.13",
-    "pg": "^8.0.2",
-    "sqlite3": "^4.1.1"
+    "knex": "^0.21.1",
+    "sqlite3": "^4.2.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.4"
   }
 }
